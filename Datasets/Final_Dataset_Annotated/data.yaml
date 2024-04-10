@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['lateral_flexion_left', 'lateral_flexion_normal', 'lateral_flexion_right', 'stance_width_broad', 'stance_width_narrow', 'stance_width_normal']
+
+roboflow:
+  workspace: cvproject-47gsu
+  project: cv_project_detection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cvproject-47gsu/cv_project_detection/dataset/7
